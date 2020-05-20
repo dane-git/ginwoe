@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A cart</title>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/fda3f8e752.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav bar    -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        GIN WOE ART
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav bar-->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">GIN WOE ART</h1>
+       <a style="text-decoration: none" href="#shop-now"><button class="banner-btn">shop now</button></a>
+      </div>
+    </header>
+    <section  id="shop-now" class="products">
+      <div class="section-title">
+        <h2>My Paintings</h2>
+      </div>
+      <div class="products-center">
+<!--    
+        <article class="product">
+          <h3>A painting</h3>
+          <div class="img-container">
+            <img
+              src="./images/Gin-Woe-Art-house.jpg"
+              alt="product"
+              class="product-img"
+            />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+         
+          <h4>$200</h4>
+        </article>
+
+        <article class="product">
+          <div class="img-container">
+            <img src="./images/garcia.jpeg" alt="product" class="product-img" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>A painting</h3>
+          <h4>$200</h4>
+        </article>
+        <article class="product">
+          <div class="img-container">
+            <img src="./images/g-face.jpeg" alt="product" class="product-img" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>A painting</h3>eee
+          <h4>$200</h4>
+        </article>
+        <article class="product">
+          <div class="img-container">
+            <img src="./images/parade.jpg" alt="product" class="product-img" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              add to bag
+            </button>
+          </div>
+          <h3>A painting</h3>
+          <h4>$200</h4>
+        </article> -->
+
+      </div>
+    </section>
+    <!-- END products -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+          <!-- Cart item -->
+          <!-- <div class="cart-item">
+            <img src="./images/mother-daughter.png" alt="" />
+            <div>
+              <h4>title of piece</h4>
+              <h5><em>$price</em></h5>
+              <span class="remove-item">remove</span>
+            </div>
+            <h5 class="piece-title">Title of piece</h5>
+          </div> -->
+          <!--  end cart-item -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your total: $ <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear Cart</button>
+        </div>
+      </div>
+    </div>
+    <!--
+        <h1>BLANK PAGE</h1>
+        <i class="fas fa-home"></i>
+        -->
+    <!--contentful-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+
+    <!--app.js-->
+    <script src="app.js"></script>
+    <!-- <script>
+      document.querySelector('.eye').click(function(){
+      document.querySelector('.eye').toggleClass('shaped');
+})
+    </script> -->
+</html>
